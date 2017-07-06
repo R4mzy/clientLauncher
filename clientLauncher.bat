@@ -18,13 +18,16 @@ echo Launching Origin...
 start "" "D:\GA\Origin\Origin.exe"
 CHOICE /C:AB /D:A /T:1 > NUL
 echo Launching Battle.net...
-start "" "D:\GA\Battle.net\Battle.net Launcher.exe"
+start "" "D:\GA\Battle.net Client\Blizzard App\Battle.net Launcher.exe"
 CHOICE /C:AB /D:A /T:1 > NUL
 echo Launching GOG Galaxy...
 start "" "D:\GA\GOG Galaxy\GalaxyClient\GalaxyClient.exe"
 CHOICE /C:AB /D:A /T:1 > NUL
 echo Launching uPlay...
 start "" "D:\GA\uPlay Games\uPlay Client\Ubisoft Game Launcher\Uplay.exe"
+CHOICE /C:AB /D:A /T:1 > NUL
+echo Launching Bethesda.net...
+start "" "D:\GA\Bethesda.net Launcher\BethesdaNetLauncher.exe"
 CHOICE /C:AB /D:A /T:1 > NUL
 echo Done.
 CHOICE /C:AB /D:A /T:1 > NUL
